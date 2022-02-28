@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    position: relative;
+    height:100%;
+    width: 100%;
+}
+
+.imgcover{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+    background-attachment: fixed;
+    opacity: 1;
+}
+
+.bgimg1{
+    background-image: url(DIGADOS-webPIC.png);
+}
+
+.bgimg2{
+    background-image: url(everyday_with_a_new_suprise.png);
+}
+
+.bgimg3{
+    min-height: 60vh;
+    background-image: url(wallpapersden.com_colorful-dots-space_3840x2160.jpg);
+}
+
+.bgimg4{
+    background-image: url(new-png-banner.png);
+    background-attachment: scroll;
+}
+
+.caption{
+    color: white;
+    margin: auto;
+    background: transparent;
+    font-size: 50px;
+    padding: 10px 25px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+
+.content{
+    width: 100%;
+    color: #fff;
+    background:#222;
+    padding:10px 50px;
+}
+
+h2{
+    margin:10px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+p{
+    opacity: 0.90;
+    font-size: 15px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.unique{
+    color: #000;
+    background:#fff;
+    width:100%;
+    padding:10px 50px
+    
+}
+
+/* FOOTER Section*/
+#footer{
+    color: #fff;
+    background-color: #000;
+    margin: 0 auto;     
+    padding: 15px;
+    
+}
+.links{
+    list-style: none;
+    display: inline-block;
+	margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 1;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
